@@ -35,7 +35,7 @@ export default function Home() {
       <Navbar onOpenBooking={() => scrollToBooking()} />
 
       <aside aria-label="Demo website notice" className="fixed right-0 top-1/2 z-40 w-36 -translate-y-1/2 rounded-l-2xl border border-r-0 border-[#C5A059]/40 bg-[#141210]/95 p-3 text-[#EFE5D2] shadow-xl backdrop-blur-sm sm:w-48 sm:p-4">
-        <strong className="block text-xs font-semibold uppercase tracking-wider text-[#DFBA6F]">Client Showcase Demo</strong>
+        <strong className="block text-xs font-semibold uppercase tracking-wider text-[#DFBA6F]">Showcase Sample</strong>
         <p className="mt-2 text-[11px] leading-relaxed sm:text-xs">Sample website by DCampaign Digital. Images are AI-generated for this demo. All business details, offers, reviews, and bookings are samples for demonstration only.</p>
       </aside>
 
