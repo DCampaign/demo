@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 import { SALON_INFO } from "@/data/salonData";
 import { Star, ShieldCheck, Sparkles, ArrowRight, Heart } from "lucide-react";
 
@@ -96,8 +98,8 @@ export default function Hero({ onBookNow }: HeroProps) {
             <div className="relative mx-auto max-w-md lg:max-w-none">
               {/* Main Salon Image Frame */}
               <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white aspect-[4/5] bg-stone-200">
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Aditi_Rao_Hydari_at_the_premiere_of_Jubilee_%28cropped%29.jpg"
+                <Image width={1024} height={1536} sizes="(max-width: 1024px) 90vw, 40vw" priority
+                  src="/images/bridal.webp"
                   alt="Royal Indian Bridal Styling by AURA"
                   className="w-full h-full object-cover object-top transform hover:scale-105 transition-transform duration-700"
                 />

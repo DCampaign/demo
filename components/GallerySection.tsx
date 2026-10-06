@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 import { useState } from "react";
 import { GALLERY_DATA } from "@/data/salonData";
 import { Camera, Sparkles, ExternalLink } from "lucide-react";
@@ -54,7 +56,7 @@ export default function GallerySection() {
               key={idx}
               className="group relative rounded-2xl overflow-hidden aspect-[4/5] bg-stone-200 shadow-sm hover:shadow-2xl transition-all duration-500 cursor-pointer"
             >
-              <img
+              <Image width={1024} height={1536} sizes="(max-width: 768px) 90vw, 33vw" 
                 src={item.image}
                 alt={item.title}
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"

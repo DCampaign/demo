@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 import { Check, Sparkles } from "lucide-react";
 
 export default function AboutSection() {
@@ -19,15 +21,15 @@ export default function AboutSection() {
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4">
                 <div className="rounded-2xl overflow-hidden shadow-md aspect-[3/4] bg-stone-100">
-                  <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Deepika_Padukone_2025_%281%29.png"
+                  <Image width={1024} height={1536} sizes="(max-width: 768px) 90vw, 33vw" 
+                    src="/images/bridal.webp"
                     alt="Royal Indian Beauty & Elegance"
                     className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-500"
                   />
                 </div>
                 <div className="rounded-2xl overflow-hidden shadow-md aspect-square bg-stone-100">
-                  <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/4/45/Priyanka_Chopra_at_Bulgary_launch%2C_2024_%28cropped%29.jpg"
+                  <Image width={1024} height={1536} sizes="(max-width: 768px) 90vw, 33vw" 
+                    src="/images/balayage.webp"
                     alt="Warm Caramel Balayage Artistry"
                     className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-500"
                   />
@@ -35,15 +37,15 @@ export default function AboutSection() {
               </div>
               <div className="space-y-4 pt-8">
                 <div className="rounded-2xl overflow-hidden shadow-md aspect-square bg-stone-100">
-                  <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/2/28/Mehandi_1_%2829%29_23.jpg"
+                  <Image width={1024} height={1536} sizes="(max-width: 768px) 90vw, 33vw" 
+                    src="/images/mehndi.webp"
                     alt="Bridal Mehndi & Spa Nails"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
                 </div>
                 <div className="rounded-2xl overflow-hidden shadow-md aspect-[3/4] bg-stone-100">
-                  <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Alia_Bhatt_attends_at_the_2026_Cannes_Film_Festival_%28cropped%29_%28cropped%29.jpg"
+                  <Image width={1024} height={1536} sizes="(max-width: 768px) 90vw, 33vw" 
+                    src="/images/facial.webp"
                     alt="Radiant Skin Facial Glow"
                     className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-500"
                   />
@@ -93,8 +95,8 @@ export default function AboutSection() {
 
             {/* Founder Quote */}
             <div className="pt-6 border-t border-[#EFEAE1] flex items-center space-x-4">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Sonam-Kapoor-attends-Cond%C3%A9-Nast-Traveller-India-event.jpg"
+              <Image width={1024} height={1536} sizes="(max-width: 768px) 90vw, 33vw" 
+                src="/images/priyanka.webp"
                 alt="Priyanka Mehra"
                 className="w-14 h-14 rounded-full object-cover object-top border-2 border-[#C5A059]"
               />

@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 import { useState } from "react";
 import { SERVICES_DATA, ServiceItem } from "@/data/salonData";
 import { Clock, Tag, Sparkles, Check } from "lucide-react";
@@ -66,7 +68,7 @@ export default function ServicesMenu({ onSelectService }: ServicesMenuProps) {
             >
               {/* Image Frame */}
               <div className="relative h-48 overflow-hidden bg-stone-100">
-                <img
+                <Image width={1024} height={1536} sizes="(max-width: 768px) 90vw, 33vw" 
                   src={service.image}
                   alt={service.name}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"

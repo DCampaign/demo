@@ -28,7 +28,6 @@ export interface Testimonial {
   text: string;
   date: string;
   service: string;
-  avatar: string;
 }
 
 export interface PackageOffer {
@@ -71,7 +70,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     price: "₹1,499+",
     badge: "Bestseller",
     description: "Detailed consultation, luxury scalp massage with custom essential elixir, precision texturizing cut, and bouncy red-carpet blowout.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/7/7b/Shraddha_Kapoor_promoting_Street_Dancer_3D.jpg",
+    image: "/images/haircut.webp",
   },
   {
     id: "caramel-balayage",
@@ -81,7 +80,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     price: "₹5,999+",
     badge: "Trending",
     description: "Hand-painted seamless highlights perfectly tailored to Indian skin undertones, enriched with Olaplex bond multiplier and gloss glaze.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/4/45/Priyanka_Chopra_at_Bulgary_launch%2C_2024_%28cropped%29.jpg",
+    image: "/images/balayage.webp",
   },
   {
     id: "botoplex-treatment",
@@ -91,7 +90,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     price: "₹6,499+",
     badge: "Frizz-Free",
     description: "Formaldehyde-free intensive smoothing treatment specifically formulated for humid Indian weather. Delivers high mirror shine for 5+ months.",
-    image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Kriti_Sanon_at_Adipurush_pre_release_event_%282%29_%28cropped%29.jpg/1280px-Kriti_Sanon_at_Adipurush_pre_release_event_%282%29_%28cropped%29.jpg",
+    image: "/images/smoothening.webp",
   },
   {
     id: "royal-bridal-hd",
@@ -101,7 +100,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     price: "₹18,500+",
     badge: "Signature VIP",
     description: "Complete royal bridal styling including high-definition airbrush makeup, couture hairstyle, lehenga/saree draping, jewelry setting & mink lashes.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/f/f0/Aditi_Rao_Hydari_at_the_premiere_of_Jubilee_%28cropped%29.jpg",
+    image: "/images/bridal.webp",
   },
   {
     id: "gold-radiance-facial",
@@ -111,7 +110,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     price: "₹3,499",
     badge: "Bridal Glow",
     description: "Kumkumadi & saffron infusion, ultrasonic extraction, 24K pure gold leaf mask, ice-globe cryotherapy, and lymphatic face contouring.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/e/e8/Alia_Bhatt_attends_at_the_2026_Cannes_Film_Festival_%28cropped%29_%28cropped%29.jpg",
+    image: "/images/facial.webp",
   },
   {
     id: "japanese-head-spa",
@@ -121,7 +120,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     price: "₹2,799",
     badge: "Holistic",
     description: "Micro-mist scalp scanner, Bhringraj & tea tree steam scrub, soothing hydrotherapy water halo ring, and upper back marma-point acupressure.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Aishwarya_Rai_Cannes_2017.jpg",
+    image: "/images/head-spa.webp",
   },
   {
     id: "mens-executive-groom",
@@ -130,7 +129,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     duration: "50 mins",
     price: "₹1,199",
     description: "Precision scissor styling, organic hot-towel steam lather, razor sharp beard sculpting, and charcoal anti-pollution facial scrub.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/1/14/Vicky_Kaushal_snapped_promoting_Zara_Hatke_Zara_Bach_Ke_on_the_sets_of_The_Kapil_Sharma_Show_%28cropped%29.jpg",
+    image: "/images/grooming.webp",
   },
   {
     id: "crystal-pedi-mani",
@@ -140,7 +139,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     price: "₹1,899",
     badge: "Relaxation",
     description: "Rose petal soak, organic Himalayan salt scrub, deep moisturizing paraffin wax wrap, and extended calf reflexology massage.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/2/28/Mehandi_1_%2829%29_23.jpg",
+    image: "/images/mehndi.webp",
   },
 ];
 
@@ -152,7 +151,7 @@ export const STYLISTS_DATA: Stylist[] = [
     experience: "14+ Years in Bollywood & Bridal Fashion",
     specialty: "High-Definition Royal Bridal & Saree Draping",
     bio: "Having worked with top Bollywood celebrities and royal destination weddings in Udaipur and Mumbai, Priyanka curates timeless glamour.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/7/7f/Sonam-Kapoor-attends-Cond%C3%A9-Nast-Traveller-India-event.jpg",
+    image: "/images/priyanka.webp",
     rating: 5.0,
   },
   {
@@ -162,7 +161,7 @@ export const STYLISTS_DATA: Stylist[] = [
     experience: "11+ Years International Experience",
     specialty: "Indian Skin Tone Balayage & Olaplex Transformations",
     bio: "Trained in London and Mumbai, Rohit specializes in honey tones, rich mocha melts, and damage-free color corrections.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Ranbir_Kapoor_at_Ramayana_special_event_in_Sep_26_%28cropped%29.jpg",
+    image: "/images/rohit.webp",
     rating: 4.9,
   },
   {
@@ -172,7 +171,7 @@ export const STYLISTS_DATA: Stylist[] = [
     experience: "9+ Years Clinical & Ayurvedic Aesthetics",
     specialty: "Glass Skin Facials, Pigmentation & Saffron Peels",
     bio: "Combines Vedic herbal science with modern Korean hydro-dermabrasion techniques to deliver instant festive glow.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/e/e8/Alia_Bhatt_attends_at_the_2026_Cannes_Film_Festival_%28cropped%29_%28cropped%29.jpg",
+    image: "/images/ananya.webp",
     rating: 4.9,
   },
   {
@@ -182,7 +181,7 @@ export const STYLISTS_DATA: Stylist[] = [
     experience: "10+ Years Precision Cutting",
     specialty: "Bespoke Layering, Botoplex & Men's Grooming",
     bio: "Celebrated for voluminous butterfly haircuts, curtain bangs tailored for Indian thick hair, and long-lasting smoothening.",
-    image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Kartik_Aaryan_at_the_Red_Sea_International_Film_Festival_2025_%28cropped%29.jpg/1280px-Kartik_Aaryan_at_the_Red_Sea_International_Film_Festival_2025_%28cropped%29.jpg",
+    image: "/images/kunal.webp",
     rating: 4.9,
   },
 ];
@@ -241,37 +240,37 @@ export const GALLERY_DATA = [
   {
     title: "Royal HD Bridal Makeover",
     category: "Bridal Couture",
-    image: "https://upload.wikimedia.org/wikipedia/commons/f/f0/Aditi_Rao_Hydari_at_the_premiere_of_Jubilee_%28cropped%29.jpg",
+    image: "/images/bridal.webp",
     stylist: "Priyanka Mehra",
   },
   {
     title: "Warm Caramel Balayage on Dark Hair",
     category: "Hair Color",
-    image: "https://upload.wikimedia.org/wikipedia/commons/4/45/Priyanka_Chopra_at_Bulgary_launch%2C_2024_%28cropped%29.jpg",
+    image: "/images/balayage.webp",
     stylist: "Rohit Khanna",
   },
   {
     title: "Voluminous Butterfly Layers",
     category: "Precision Cut",
-    image: "https://upload.wikimedia.org/wikipedia/commons/7/7b/Shraddha_Kapoor_promoting_Street_Dancer_3D.jpg",
+    image: "/images/haircut.webp",
     stylist: "Kunal Verma",
   },
   {
     title: "24K Gold & Saffron Bridal Facial",
     category: "Skin Spa",
-    image: "https://upload.wikimedia.org/wikipedia/commons/d/d3/Deepika_Padukone_2025_%281%29.png",
+    image: "/images/facial.webp",
     stylist: "Ananya Sen",
   },
   {
     title: "Nanoplastia Mirror Silk Gloss",
     category: "Precision Cut",
-    image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Kriti_Sanon_at_Adipurush_pre_release_event_%282%29_%28cropped%29.jpg/1280px-Kriti_Sanon_at_Adipurush_pre_release_event_%282%29_%28cropped%29.jpg",
+    image: "/images/smoothening.webp",
     stylist: "Kunal Verma",
   },
   {
     title: "Royal Bridal Mehndi & Nails",
     category: "Wellness Ritual",
-    image: "https://upload.wikimedia.org/wikipedia/commons/2/28/Mehandi_1_%2829%29_23.jpg",
+    image: "/images/mehndi.webp",
     stylist: "Ananya Sen",
   },
 ];
@@ -285,7 +284,6 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     text: "AURA is easily the most sophisticated salon in Bandra. Rohit did a caramel balayage that looks so natural against my Indian skin tone. Absolutely no brassiness and zero hair damage thanks to their Olaplex treatments.",
     date: "1 week ago",
     service: "Warm Caramel Balayage",
-    avatar: "https://upload.wikimedia.org/wikipedia/commons/c/c7/Ananya_Panday_grace_the_premiere_of_Merry_Christmas_%28cropped%29.png",
   },
   {
     id: "t2",
@@ -295,7 +293,6 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     text: "Priyanka and her team did my bridal makeup for my wedding at Taj Lands End. The airbrush base was flawless for 14 hours straight under heavy stage lighting. My lehenga draping was pin-perfect. Every bride deserves AURA!",
     date: "3 weeks ago",
     service: "The Royal Dulhan Couture Suite",
-    avatar: "https://upload.wikimedia.org/wikipedia/commons/9/9b/Sara_Ali_Khan_snapped_promoting_Zara_Hatke_Zara_Bach_Ke_on_the_sets_of_The_Kapil_Sharma_Show_%288%29_%28cropped%29.jpg",
   },
   {
     id: "t3",
@@ -305,7 +302,6 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     text: "The Waterfall Ayurvedic Head Spa is extraordinary. After weeks of long screen hours and stress, the Bhringraj oil massage and water halo completely refreshed me. Outstanding hospitality and coffee as well.",
     date: "2 weeks ago",
     service: "Waterfall Head Spa & Scalp Detox",
-    avatar: "https://upload.wikimedia.org/wikipedia/commons/e/e4/Ayushmann_Khurrana_promotos_%27Anek%27_in_Delhi_%281%29_%28cropped%29.jpg",
   },
 ];
 

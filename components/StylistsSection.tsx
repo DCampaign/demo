@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 import { STYLISTS_DATA } from "@/data/salonData";
 import { Star, Award, Calendar } from "lucide-react";
 
@@ -32,7 +34,7 @@ export default function StylistsSection({ onSelectStylist }: StylistsSectionProp
             >
               {/* Image Frame */}
               <div className="relative aspect-[4/5] overflow-hidden bg-stone-200">
-                <img
+                <Image width={1024} height={1536} sizes="(max-width: 768px) 90vw, 33vw" 
                   src={stylist.image}
                   alt={stylist.name}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"

@@ -52,11 +52,12 @@ export default function TestimonialsSection() {
               </div>
 
               <div className="mt-8 pt-6 border-t border-[#EAE3D6] flex items-center space-x-3">
-                <img
-                  src={t.avatar}
-                  alt={t.name}
-                  className="w-12 h-12 rounded-full object-cover border border-[#C5A059]"
-                />
+                <span
+                  aria-hidden="true"
+                  className="w-12 h-12 shrink-0 rounded-full flex items-center justify-center bg-[#F1E5D0] text-[#8C6D2D] font-serif text-lg border border-[#C5A059]"
+                >
+                  {t.name.replace(/^Dr\.\s*/, "").split(" ").map((part) => part[0]).slice(0, 2).join("")}
+                </span>
                 <div>
                   <div className="flex items-center space-x-1.5">
                     <span className="text-sm font-semibold text-[#1A1816]">{t.name}</span>
