@@ -178,7 +178,7 @@ export default function Footer() {
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-[#7A7369] gap-4">
           <p className="text-center sm:text-left">
             © {new Date().getFullYear()} AURA Luxury Salon &amp; Bridal Lounge |{" "}
-            <a href="https://dcampaign.com" target="_blank" rel="noopener noreferrer" className="text-[#C5A059] hover:text-[#DFBA6F] underline underline-offset-4 transition-colors">
+            <a href="https://dcampaign.com" target="_blank" rel="noopener noreferrer" className="text-[#C5A059] hover:text-[#DFBA6F] transition-colors">
               Powered by DCampaign Digital
             </a>
           </p>
