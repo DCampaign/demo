@@ -176,9 +176,16 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-[#7A7369] gap-4">
+          <div className="text-center sm:text-left space-y-2">
           <p>
             © {new Date().getFullYear()} AURA Luxury Salon & Bridal Lounge. Sample Business Website. All rights reserved.
           </p>
+          <p>
+            <a href="https://dcampaign.com" target="_blank" rel="noopener noreferrer" className="text-[#C5A059] hover:text-[#DFBA6F] underline underline-offset-4 transition-colors">
+              Powered by DCampaign Digital
+            </a>
+          </p>
+          </div>
           <div className="flex space-x-6">
             <a href="#terms" className="hover:text-[#C5A059] transition-colors">
               Privacy Policy

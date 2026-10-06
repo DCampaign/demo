@@ -34,6 +34,11 @@ export default function Home() {
       {/* Navigation */}
       <Navbar onOpenBooking={() => scrollToBooking()} />
 
+      <aside aria-label="Demo website notice" className="border-b border-[#C5A059]/30 bg-[#EFE5D2] px-4 py-3 text-center text-sm text-[#493C26]">
+        <strong className="font-semibold">Demo website for client showcase.</strong>{" "}
+        This is a sample design by DCampaign Digital. Business details, offers, reviews, and bookings are for demonstration only.
+      </aside>
+
       {/* Hero Section */}
       <Hero onBookNow={() => scrollToBooking()} />
 
