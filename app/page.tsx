@@ -34,9 +34,9 @@ export default function Home() {
       {/* Navigation */}
       <Navbar onOpenBooking={() => scrollToBooking()} />
 
-      <aside aria-label="Demo website notice" className="border-b border-[#C5A059]/30 bg-[#EFE5D2] px-4 py-3 text-center text-sm text-[#493C26]">
-        <strong className="font-semibold">Demo website for client showcase.</strong>{" "}
-        This is a sample design by DCampaign Digital. Business details, offers, reviews, and bookings are for demonstration only.
+      <aside aria-label="Demo website notice" className="fixed right-0 top-1/2 z-40 w-36 -translate-y-1/2 rounded-l-2xl border border-r-0 border-[#C5A059]/40 bg-[#141210]/95 p-3 text-[#EFE5D2] shadow-xl backdrop-blur-sm sm:w-48 sm:p-4">
+        <strong className="block text-xs font-semibold uppercase tracking-wider text-[#DFBA6F]">Client Showcase Demo</strong>
+        <p className="mt-2 text-[11px] leading-relaxed sm:text-xs">Sample website by DCampaign Digital. Business details, offers, reviews, and bookings are for demonstration only.</p>
       </aside>
 
       {/* Hero Section */}
